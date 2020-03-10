@@ -1,13 +1,13 @@
-package org.wcci.reviews;
+package org.wcci.reviewssitefullstack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReviewsApplication {
+public class ReviewsSiteFullStackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReviewsApplication.class, args);
+        SpringApplication.run(ReviewsSiteFullStackApplication.class, args);
     }
 
 }

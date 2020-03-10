@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link rel="stylesheet" href="/css/my.css" type="text/css">
+	
+	<title> eReview</title>
+</head>
+<body>
+
+	<header>
+		<h1>One Category</h1>
+	</header>
+	
+	<main>
+	<div class="logo">
+	<img th:src="@{images/Reviews.jpg}"/>
+	</div>
+		<ul>
+            <li th:each="review: ${category.review}"><a th:href="|/review?id=${review.id}|" 
+                th:text="${review.name}"></a></li>
+		</ul>
+	</main>
+
+	<footer>
+        <p><a href="/categories">Back To Reviews</a></p>
+        
+        <a href="http://localhost:8080/categories">Go Back to Categories</a>
+        
+		<small> &copy; 2020 eReviews</small>
+	</footer>
+
+</body>
+</html>

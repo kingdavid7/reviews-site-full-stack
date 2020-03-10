@@ -1,4 +1,4 @@
-package org.wcci.reviews;
+package org.wcci.reviewssitefullstack;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ReviewsApplicationTests {
+public class ReviewsSiteFullStackApplicationTests {
 
     @Test
     public void contextLoads() {
